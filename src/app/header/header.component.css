@@ -1,0 +1,22 @@
+.header {
+    background-color: #FDD90B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo a img {
+    width: 120px;
+    height: 120px;
+}
+
+a {
+    color: #da001e;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #151217;
+}
