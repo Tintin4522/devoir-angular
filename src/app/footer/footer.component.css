@@ -1,0 +1,16 @@
+.socialLinks {
+    background-color: #FDD90B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.socialLinks a {
+    color: #da001e;
+    font-size: 4rem;
+}
+
+.socialLinks :hover {
+    color: #151217;
+}
