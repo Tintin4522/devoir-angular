@@ -1,0 +1,31 @@
+.custom-card {
+    background-color: #fdd90b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #da001e;
+    margin-top: 2rem;
+    border: 2px solid #151217;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.custom-button {
+    background-color: #fdd90b;
+    border-radius: 10px;
+    color: #da001e;
+    padding: 15px 20px;
+    border: 2px solid #da001e;
+}
+
+.custom-button:hover {
+    background-color: #151217;
+    color: #fdd90b;
+    border: 2px solid #fdd90b;
+}
+
+.contentDiv {
+    background-color: #f9d0a3;
+}
+
+.btn {
+    margin-top: 0;
+}

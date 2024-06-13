@@ -1,0 +1,26 @@
+<div class="contentDiv">
+    <div class="d-flex justify-content-center my-3 btn">
+        <button (click)="triCroissant()" class="btn custom-button mx-2">Trier par prix croissant</button>
+        <button (click)="triDecroissant()" class="btn custom-button mx-2">Trier par prix décroissant</button>
+    </div>
+
+    <div>
+        <input id="recherche" (input)="recherche($event.target)">
+    </div>
+      
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12" *ngFor="let product of products">
+            <div class="card mb-4 custom-card">
+              <img [src]="product.src" class="card-img-top" alt="{{ product.name }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ product.name }}</h5>
+                <p class="card-text">Prix: {{ product.price | currency:'EUR' }}</p>
+                <p class="card-text">{{ product.description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</div>
