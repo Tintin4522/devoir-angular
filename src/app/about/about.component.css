@@ -1,0 +1,29 @@
+.contentDiv {
+    background-color: #f9d0a3;
+    height: 100%;
+    text-align: center;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.imgVillage {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 3rem auto;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 3rem;
+    
+}
