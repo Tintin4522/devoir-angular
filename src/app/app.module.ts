@@ -9,6 +9,11 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProduitsComponent } from './produits/produits.component';
 import { FormsModule } from '@angular/forms';
+import { ProductsService } from './products.service';
+import { SortPipe } from './sort.pipe';
+import { FilterPipe } from './filter.pipe';
+import { ProduitDetailComponent } from './produit-detail/produit-detail.component';
+
 
 
 @NgModule({
@@ -19,13 +24,16 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     AboutComponent,
     ProduitsComponent,
+    SortPipe,
+    FilterPipe,
+    ProduitDetailComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
   ],
-  providers: [],
+  providers: [ProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

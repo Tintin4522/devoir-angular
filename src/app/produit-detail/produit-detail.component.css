@@ -1,0 +1,45 @@
+.contentDiv {
+    background-color: #f9d0a3;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+.container {
+    text-align: center;
+    max-width: 80vw;
+}
+
+.container h3 {
+    color: #da001e;
+    margin-top: 2rem;
+}
+
+.container p {
+    border: 2px solid #151217;
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: #da001e;
+}
+
+button {
+    background-color: #fdd90b;
+    border-radius: 10px;
+    color: #da001e;
+    padding: 15px 20px;
+    border: 2px solid #da001e;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #151217;
+    color: #fdd90b;
+    border: 2px solid #fdd90b;
+}
+
+.container img {
+    border: 2px solid #da001e;
+    border-radius: 10px;
+}

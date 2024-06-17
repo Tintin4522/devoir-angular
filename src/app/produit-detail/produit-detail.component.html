@@ -1,0 +1,9 @@
+<div class="contentDiv">
+    <div *ngIf="product$ | async as product" class="container">
+        <h3>{{ product.name }}</h3>
+        <img [src]="product.src" alt="{{ product.name }}" class="img-fluid">
+        <p>Description: {{ product.description }}</p>
+        <p>Prix: {{ product.price | currency:'EUR' }}</p>
+        <button (click)="goBack()">Retour au catalogue</button>
+    </div>
+</div>

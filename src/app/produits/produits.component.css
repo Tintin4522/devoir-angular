@@ -22,10 +22,43 @@
     border: 2px solid #fdd90b;
 }
 
-.contentDiv {
-    background-color: #f9d0a3;
+.containerBtn {
+    padding-top: 2rem;
 }
 
-.btn {
+.contentDiv {
+    background-color: #f9d0a3;
     margin-top: 0;
 }
+
+
+.card-link {
+    cursor: pointer; 
+    text-decoration: none; 
+    color: inherit;
+}
+  
+.card-link:hover {
+    text-decoration: none; 
+}
+
+.containerRecherche {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+.custom-input {
+    padding: 10px 15px;
+    border: 2px solid #DA001E;
+    border-radius: 10px;
+    background-color: #FDD90B;
+    color: #151217;
+    font-size: 16px;
+    outline: none;     
+}
+  
+.custom-input:focus {
+    border-color: #DA001E; 
+}
+  
